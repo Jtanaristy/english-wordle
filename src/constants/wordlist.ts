@@ -1,1 +1,8 @@
-export const WORDS = ['apple', 'naked', 'broski']
+export const WORDS = [
+  'aroma',
+  'dingy',
+  'depot',
+  'edict',
+  'farce',
+  'foyer',
+  'glass']
