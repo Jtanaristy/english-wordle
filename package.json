@@ -7,7 +7,7 @@
     "eject": "react-scripts eject",
     "fix": "prettier --write src",
     "lint": "prettier --check src",
-    "start": "react-scripts start",
+    "start": "docker build -t reactle:dev -f docker/Dockerfile && docker run -d -p 3000:3000 --name reactle-dev reactle:dev",
     "test": "react-scripts test",
     "prepare": "husky install"
   },
