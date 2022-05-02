@@ -3,11 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "build": "docker build -t reactle:dev -f docker/Dockerfile",
+    "build": "react-scripts build",
     "eject": "react-scripts eject",
     "fix": "prettier --write src",
     "lint": "prettier --check src",
-    "start": "docker run -d -p 3000:3000 --name reactle-dev reactle:dev",
+    "start": "react-scripts start",
     "test": "react-scripts test",
     "prepare": "husky install"
   },
